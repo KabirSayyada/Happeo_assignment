@@ -12,9 +12,11 @@ This project can be run locally and interacted with through the terminal in Visu
 
 To get started with this project, its recommended to use Visual Studio Code IDE. You need to set up the H2 database(use in embedded mode, version used in project for both h2 console and pom.xml is  is 2.2.222). The database URL, username, and password are specified in the ChannelDao and PostDao classes in the com.happeo.dao package. The default settings are:
 
-URL: jdbc:h2:~/test
-Username: sa
-Password: "" (empty)
+*URL: jdbc:h2:~/test
+
+*Username: sa
+
+*Password: "" (empty)
 You can change these settings if you want to match your local H2 database setup. But I recommend leaving it like that since it's in embedded mode.
 
 The data.sql file in the resources directory contains the SQL commands to create the necessary tables and populate them with initial data. You should initialize the database and populate it by running Main.java to replicate the structure used during development.
