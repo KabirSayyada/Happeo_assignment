@@ -1,0 +1,48 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "GetPosts",
+            "request": "launch",
+            "mainClass": "com.happeo.runningproject.GetPosts",
+            "projectName": "happeo_assignment"
+        },
+        {
+            "type": "java",
+            "name": "GetChannel",
+            "request": "launch",
+            "mainClass": "com.happeo.runningproject.GetChannel",
+            "projectName": "happeo_assignment"
+        },
+        {
+            "type": "java",
+            "name": "CreateNewChannel",
+            "request": "launch",
+            "mainClass": "com.happeo.runningproject.CreateNewChannel",
+            "projectName": "happeo_assignment"
+        },
+        {
+            "type": "java",
+            "name": "CreateChannel",
+            "request": "launch",
+            "mainClass": "com.happeo.runningproject.CreateChannel",
+            "projectName": "happeo_assignment"
+        },
+        {
+            "type": "java",
+            "name": "AddPost",
+            "request": "launch",
+            "mainClass": "com.happeo.runningproject.AddPost",
+            "projectName": "happeo_assignment"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Main",
+            "request": "launch",
+            "mainClass": "com.happeo.Main",
+            "projectName": "happeo_assignment",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
