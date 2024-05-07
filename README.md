@@ -17,6 +17,7 @@ To get started with this project, its recommended to use Visual Studio Code IDE.
 *Username: sa
 
 *Password: "" (empty)
+
 You can change these settings if you want to match your local H2 database setup. But I recommend leaving it like that since it's in embedded mode.
 
 The data.sql file in the resources directory contains the SQL commands to create the necessary tables and populate them with initial data. You should initialize the database and populate it by running Main.java to replicate the structure used during development.
