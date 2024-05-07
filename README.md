@@ -40,16 +40,23 @@ This project can be extended in several ways. For example, by adding more featur
 FUNCTIONS 🧩
 
 -The Post Service of this project can handle heavy amount of loads
+
+
 -Auditing was added in the Email Service to make it possible to troubleshoot customer-reported issues
+
 -The solution is easily deployable and runnable locally(even within the IDE and terminal)
+
 -Errors and fallbacks were well and properly handled in all cases
 
 
 BUILT WITH 🏗️
 
 -Java (purely java, no other technology was used e.g Springboot, Spring e.t.c were not used)
+
 -H2 Database
+
 -Maven (for buid automation and dependency management)
+
 -Author: Kabir Garba Ringim
 
 
